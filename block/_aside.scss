@@ -1,0 +1,146 @@
+.aside {
+  width: 100%;
+  height: 510px;
+
+  .asd_glav_logo {
+    margin: 25px 1050px;
+  }
+
+  .asd_glav_title {
+    /* The magic of AI at your fingertips. */
+
+    width: 478px;
+    height: 132px;
+
+    /* Heading 2 */
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 65px;
+    /* or 116% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #ffffff;
+    margin: auto;
+  }
+
+  .asd_text {
+    /* Achieve clear, impactful results without the complexity. */
+
+    width: 363px;
+    height: 62px;
+
+    /* Body L */
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    /* or 155% */
+    text-align: center;
+    letter-spacing: -0.0001em;
+
+    color: #ffffff;
+    margin: 25px auto;
+  }
+
+  .asd_btn {
+    /* CTA btn */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 10px;
+
+    width: 118px;
+    height: 38px;
+
+    background: rgba(140, 69, 255, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: inset 0px 0px 6px 3px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(7px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 10px;
+    margin: auto;
+
+    /* Body S */
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* or 186% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.0001em;
+
+    color: #ffffff;
+  }
+}
+
+@media (max-width: 480px) {
+  .aside {
+    width: 100%;
+    border: none;
+    margin: 50px auto;
+    height: 582px;
+
+    .asd_glav_logo {
+      margin: 0;
+      margin-left: 190px;
+    }
+
+    .asd_glav_title {
+      /* The magic of AI at your fingertips. */
+
+      width: 276px;
+      height: 71px;
+
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 35px;
+      /* or 135% */
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: -0.015em;
+
+      color: #ffffff;
+    }
+
+    .asd_text {
+      /* Achieve clear, impactful results without the complexity. */
+
+      width: 363px;
+      height: 62px;
+
+      /* Body L */
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 31px;
+      /* or 155% */
+      text-align: center;
+      letter-spacing: -0.0001em;
+
+      color: #ffffff;
+    }
+
+    .asd_btn {
+      width: 118px;
+      height: 38px;
+    }
+  }
+}

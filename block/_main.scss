@@ -1,0 +1,156 @@
+.main {
+  width: 100%;
+  height: 570px;
+  margin: auto;
+  background-color: black;
+
+  .main_glav_box {
+    width: 1100px;
+    height: 473px;
+    border: 1px solid black;
+    margin: auto;
+  }
+
+  .main_glav_title {
+    /* ”This product has completely transformed how I manage my projects and deadlines” */
+
+    width: 339px;
+    height: 102px;
+
+    /* Quote */
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 34px;
+    /* or 148% */
+    letter-spacing: -0.0001em;
+
+    color: #ffffff;
+  }
+
+  .main_sub_title {
+    /* Talia Taylor */
+
+    width: 127px;
+    height: 17px;
+
+    /* Body M */
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    padding: 25px 0;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.0001em;
+
+    color: #ffffff;
+  }
+
+  .main_text {
+    /* Digital Marketing Director @ Quantum */
+
+    width: 289px;
+    height: 26px;
+
+    /* Body S */
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 186% */
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.0001em;
+
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .main_blur_box {
+    margin-top: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+    width: 100%;
+    height: 590px;
+    margin: auto;
+
+    .main_glav_box {
+      width: 362px;
+      height: 439px;
+    }
+
+    .main_blur_box {
+      flex-direction: column;
+    }
+
+    .main_glav_title {
+      /* ”This product has completely transformed how I manage my projects and deadlines” */
+
+      width: 289px;
+      height: 75px;
+
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 25px;
+      /* or 125% */
+      padding: 25px 0;
+      letter-spacing: -0.0001em;
+
+      color: #ffffff;
+    }
+
+    .main_text {
+      /* Digital Marketing Director @ Quantum */
+
+      width: 289px;
+      height: 26px;
+
+      /* Body S */
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      padding: 25px 0;
+      font-size: 14px;
+      line-height: 26px;
+      /* identical to box height, or 186% */
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.0001em;
+
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    .main_sub_title {
+      /* Talia Taylor */
+      margin-top: 20px;
+      width: 127px;
+      height: 17px;
+
+      /* Body M */
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      /* or 162% */
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.0001em;
+
+      color: #ffffff;
+    }
+  }
+}

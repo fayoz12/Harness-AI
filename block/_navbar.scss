@@ -1,0 +1,152 @@
+.navbar {
+  width: 100%;
+  height: 68px;
+  background-color: #020103;
+
+  .nav_logo {
+    width: 38px;
+    height: 38px;
+  }
+
+  .nav_wrapper {
+    width: 1200px;
+    height: 58px;
+
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 14px;
+    margin-left: 550px;
+  }
+
+  .nav_link {
+    /* Features */
+
+    width: 54px;
+    height: 26px;
+
+    /* Body XS */
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 26px;
+    /* identical to box height, or 200% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.0001em;
+
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .nav_item_box {
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .nav_btn {
+    /* CTA */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 15px;
+    gap: 10px;
+
+    width: 109px;
+    height: 30px;
+
+    background: rgba(140, 69, 255, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: inset 0px 0px 6px 3px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(7px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 8px;
+
+    /* Body S */
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 186% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.0001em;
+
+    color: #ffffff;
+  }
+
+  .navbar_hr {
+    display: none;
+  }
+
+  .nav_btn_box {
+    /* CTA */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    gap: 10px;
+
+    width: 121px;
+    height: 42px;
+
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    width: 100%;
+    height: 60px;
+
+    .nav_wrapper {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav_link {
+      display: none;
+    }
+
+    .nav_btn {
+      margin-left: 350px;
+    }
+
+    .nav_btn_box {
+      display: none;
+    }
+
+    .navbar_hr {
+      display: flex;
+      width: 35px;
+      height: 5px;
+      margin-top: 5px;
+      /* Vector */
+
+      background: #ffffff;
+    }
+
+    .nav_glav_box {
+      display: flex;
+      align-items: center;
+      gap: 210px;
+      margin-left: 100px;
+    }
+  }
+}
+
+ 

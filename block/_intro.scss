@@ -1,0 +1,330 @@
+.inrto {
+  width: 100%;
+  margin: auto;
+
+  background-color: #11081e;
+  height: 790px;
+
+  .intro_img {
+    width: 588px;
+    height: 643px;
+  }
+
+  .inrto_glav_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .inrto_title {
+    /* Heading 1 */
+
+    width: 492px;
+    height: 168px;
+
+    /* Heading 1 */
+    font-family: "Inter";
+    font-style: normal;
+    margin-top: 90px;
+    font-weight: 500;
+    font-size: 82px;
+    line-height: 84px;
+    /* or 102% */
+    letter-spacing: -0.0506em;
+
+    background: linear-gradient(291.9deg, #ffffff 62.65%, #000000 108.48%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .inrto_icons {
+    margin-left: 510px;
+    margin-top: 50px;
+  }
+
+  .intro_text {
+    /* Body */
+
+    width: 544px;
+    height: 62px;
+
+    /* Body L */
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    /* or 155% */
+    letter-spacing: -0.0001em;
+
+    color: #ffffff;
+    margin-top: 25px;
+    opacity: 0.7;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+
+  .inrto_mini_wrapper {
+    /* Badge/M */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 14px;
+    gap: 7px;
+    position: absolute;
+    width: 291px;
+    margin-left: 350px;
+    margin-top: 130px;
+    height: 42px;
+
+    background: #000000;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 50px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .intro_btn_wrapper {
+    box-sizing: border-box;
+
+    /* Auto layout */
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 19px 16px;
+    gap: 10px;
+    isolation: isolate;
+
+    width: 401px;
+    height: 49px;
+
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+  }
+
+  .intro_btn {
+    /* Body M */
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.0001em;
+
+    color: rgba(255, 255, 255, 0.5);
+    background-color: inherit;
+    border: none;
+  }
+
+  .intro_check_btn {
+    /* CTA */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+    gap: 8px;
+
+    width: 114px;
+    height: 41px;
+
+    background: #ffffff;
+    border-radius: 8px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 31px;
+    /* identical to box height, or 207% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.0101em;
+
+    color: #000000;
+  }
+
+  .intro_mini_text {
+    /* Latest integration just arrived */
+
+    width: 222px;
+    height: 26px;
+
+    /* Body M */
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.0001em;
+
+    color: #9855ff;
+  }
+
+  .intro_mini_btn {
+    /* Badge/S */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+    width: 34px;
+    height: 18px;
+
+    background: #9855ff;
+    border-radius: 40px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .inrto {
+    width: 100%;
+    margin: auto;
+    height: 750px;
+
+    .inrto_glav_box {
+      flex-direction: column;
+      margin-left: 50px;
+    }
+
+    .intro_img {
+      display: none;
+    }
+    .inrto_mini_wrapper {
+      display: none;
+    }
+    .intro_text {
+      /* Body */
+
+      width: 315px;
+      height: 124px;
+
+      /* Body L */
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 31px;
+      /* or 155% */
+      letter-spacing: -0.0001em;
+
+      color: #ffffff;
+
+      opacity: 0.7;
+
+      /* Inside auto layout */
+      flex: none;
+      order: 2;
+      flex-grow: 0;
+    }
+
+    .inrto_title {
+      /* Heading 1 */
+
+      width: 350px;
+
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 54px;
+      line-height: 69px;
+      /* or 128% */
+      letter-spacing: -0.0506em;
+
+      background: linear-gradient(291.9deg, #ffffff 62.65%, #000000 108.48%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+
+      /* Inside auto layout */
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+
+    .intro_btn_wrapper {
+      width: 324px;
+      height: 49px;
+
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 8px;
+    }
+
+    .intro_check_btn {
+      height: 41px;
+      width: 324px;
+
+      background: #ffffff;
+      border-radius: 8px;
+
+       margin-top: 25px;
+      /* Inside auto layout */
+    }
+
+    .intro_btn_wrapper {
+      flex-direction: column;
+      display: flex;
+      align-items: center;
+    }
+
+    .intro_btn {
+      width: 91px;
+      height: 11px;
+
+      /* Body M */
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      /* or 162% */
+      display: flex;
+      align-items: center;
+
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+
+
+    .inrto_icons {
+      display: none;
+    }
+  }
+}
